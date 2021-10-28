@@ -36,6 +36,7 @@ touch ${PWD}/${name}/.gitignore
 echo "*nc" > ${PWD}/${name}/.gitignore
 echo "__pycache__" >> ${PWD}/${name}/.gitignore
 echo ".env" >> ${PWD}/${name}/.gitignore
+echo "env/" >> ${PWD}/${name}/.gitignore
 
 # create virtual env, requirements.txt and update pip
 python3 -m venv ${PWD}/${name}/env
