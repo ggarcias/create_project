@@ -201,4 +201,5 @@ ${PWD}/${name}/env/bin/pip install --upgrade pip
 
 ${PWD}/${name}/env/bin/pip install -e ${PWD}/${name}
 
-${PWD}/${name}/env/bin/black ${PWD}/${name}/*py
+${PWD}/${name}/env/bin/pip install -r ${PWD}/${name}/requirements_dev.txt
+
